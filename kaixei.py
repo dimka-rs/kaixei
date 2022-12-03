@@ -24,7 +24,8 @@ nbpadh=20
 statush=20
 #frames = {1:"f1", 2:"f2"}
 
-def btn_cb():
+def btn_cb(event, id):
+    print(id)
     return
 
 
@@ -61,7 +62,8 @@ for pg in range(2):
     chapter1.pages.append(Page())
 
     for btn in range(16):
-        chapter1.pages[pg].buttons.append(ttk.Button(f1 if pg==0 else f2, text=f'Button {str(pg)} {str(btn)}', command=btn_cb))
+        chapter1.pages[pg].buttons.append(ttk.Button(f1 if pg==0 else f2, text=f'Button {str(pg)} {str(btn)}'))
+        chapter1.pages[pg].buttons[-1].bind('<Button-1>',  lambda event, id=f'Button {str(pg)} {str(btn)}': btn_cb(event, id))
         chapter1.pages[pg].buttons[-1].grid(padx=10, pady=10, row=btn//4, column=btn%4)
 
 
