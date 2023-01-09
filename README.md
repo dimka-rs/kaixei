@@ -23,7 +23,9 @@ Enclosure
 * https://mirrors.dotsrc.org/armbian-dl/orangepizero2/archive/Armbian_22.11.1_Orangepizero2_jammy_edge_6.0.10.img.xz
 
 Enable USB OTG:
-https://lore.kernel.org/linux-arm-kernel/20220211122643.1343315-18-andre.przywara@arm.com/
+
+* https://lore.kernel.org/linux-arm-kernel/20220211122643.1343315-18-andre.przywara@arm.com/
+* https://forum.armbian.com/topic/16170-orangepi-zero2-allwinner-h616/
 
 
 ## App autostart
