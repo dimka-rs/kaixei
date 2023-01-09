@@ -17,6 +17,8 @@ Enclosure
 ### Orange Pi Zero 2 (WiFi + Ethernet, micro HDMI)
 
 * http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-Zero-2.html
+    * Download latest XFCE: https://drive.google.com/file/d/1qTtGsdRtx4EtQQIXGP-6RgXL6NTIjvmw/view?usp=share_link
+    * Login/pass: orangepi/orangepi, root/orangepi
 * http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_Zero_2
 * https://linux-sunxi.org/File:Orange_Pi_Zero2_H616_Schematic_v1.3.pdf
 * Download Jammy: https://www.armbian.com/orange-pi-zero-2/
